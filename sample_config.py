@@ -4,15 +4,15 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("6484301475:AAHh1svu7-ZzVNgpXQmf8nHQbocLEMlGboI", "")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 29849415))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("0dd6c10897b85d7f10a8dcdeb74f8b8a", "")
     
     
     # Database URL from https://cloud.mongodb.com/
