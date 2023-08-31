@@ -8,7 +8,7 @@ class Config(object):
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 29849415))
+    API_ID = int(os.environ.get("API_ID", 29849415)
 
 
     # Get from my.telegram.org (or @UseTGXBot)
@@ -16,11 +16,11 @@ class Config(object):
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")
+    DATABASE_URI = os.environ.get("mongodb+srv://Hacker:<sudipsaha2006>@cluster0.mcdrruk.mongodb.net/?retryWrites=true&w=majority", "")
 
 
     # Your database name from mongoDB
-    DATABASE_NAME = str(os.environ.get("DATABASE_NAME", "Cluster0"))
+    DATABASE_NAME = str(os.environ.get("Hacker", "Cluster0"))
 
 
     # ID of users that can use the bot commands
